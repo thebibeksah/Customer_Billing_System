@@ -149,7 +149,7 @@ int main(){
     printf("Item\t\tQuantity\tRate\t\tTotal\n");
     printf("-------------------------------------------------------------------------------------------------------------\n");
     for(i=0; i<numPurchased;i++){
-        printf("%s\t\t%d\t\t$%.2f\t\tRs %.2f\n", items[detail[i].index - 1].itemName, detail[i].quantity, items[detail[i].index - 1].itemPrice, calculateTotal(items[detail[i].index - 1].itemPrice * detail[i].quantity, isRegular));
+        printf("%s\t\t%d\t\tRs %.2f\t\tRs %.2f\n", items[detail[i].index - 1].itemName, detail[i].quantity, items[detail[i].index - 1].itemPrice, calculateTotal(items[detail[i].index - 1].itemPrice * detail[i].quantity, isRegular));
     }
     printf("-------------------------------------------------------------------------------------------------------------\n");
     printf("\t\t\t\t\t\tTotal: Rs %.2f\n", totalAmount);
