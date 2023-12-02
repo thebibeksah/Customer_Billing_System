@@ -1,0 +1,5 @@
+coke 100
+candy 10
+cookies 250
+bread 50
+milk 80
